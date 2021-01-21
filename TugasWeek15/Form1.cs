@@ -107,7 +107,7 @@ namespace TugasWeek15
 
             if (checkBoxfood.Checked == false && checkBoxbev.Checked == true)
             {
-                foreach (object drink1 in listBoxfood.SelectedItems)
+                foreach (object drink1 in listBoxbev.SelectedItems)
                 {
                     listBoxsecnd.Items.Add(drink1);
                 }
@@ -115,7 +115,7 @@ namespace TugasWeek15
 
             if (checkBoxfood.Checked == true && checkBoxbev.Checked == false)
             {
-                foreach (object drink2 in listBoxbev.SelectedItems)
+                foreach (object drink2 in listBoxfood.SelectedItems)
                 {
                     listBoxsecnd.Items.Add(drink2);
                 }
